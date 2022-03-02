@@ -1,0 +1,317 @@
+
+/*  GENERAL  */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix:after{
+    content: '';
+    display:table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* WAVE */
+
+.wave {
+    opacity: 6%;
+    margin-bottom: 0px;
+    display: block;
+}
+
+.rotate {
+    transform: rotate(0.5turn);
+}
+
+/* BUTTON */
+
+.btnSmall {
+    background-color: white;
+    padding: 25% 35%;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+.btnLarge {
+    background-color: white;
+    padding: 2% 4%;
+    border-radius: 40px;
+    font-size: 1vw;
+    margin: 2%;
+}
+
+.btnLarge:hover {
+    color:#6F85D3;
+}
+
+.bgColor-black {
+    background-color: #0E0E0E;
+}
+
+.bgColor-gray {
+    background-color: #F1F1F1;
+}
+
+.bgColor-purple {
+    background-color: #6F85D3;
+}
+
+.bgColor-purple:hover {
+    color: #0E0E0E;
+}
+
+.textColor-Black {
+    color: #0E0E0E;
+}
+
+/*  HEADER  */
+header{
+    background-color: #255EE9;
+}
+
+/*  NAV BAR */ 
+.top-nav {
+    text-align: center;
+    text-transform: capitalize;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2% 0;
+    
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.logo img {
+    width: 100%;
+}
+#logIn {
+    vertical-align: bottom;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logIn a{
+    color: black;
+}
+
+#logIn a:hover {
+    color:#6F85D3;
+}
+
+/*  LIST */
+.top-nav ul {
+    list-style: none;
+    margin: 0 auto;
+    width: 80%;
+    display: inline-block;
+}
+
+.top-nav li {
+    display: inline-block;
+    padding: 0 2%;
+    font-size: 1vw;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 30vw;
+}
+
+.jumbo-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3vw;
+    padding: 6% 0;
+}
+
+.jumbotron p {
+    margin-bottom: 6%;
+    font-size: 1.2vw;
+}
+
+/*  SECTION 1 */
+.section {
+    width: 70%;
+    margin: 0 auto;
+    padding: 8% 0;
+}
+
+ .section img:first-child {
+     width: 55%;
+ }
+
+ .largeImg {
+     width: 100%;
+ }
+
+ .imgRight {
+     float: right;
+ }
+
+.section-text {
+    float: right;
+    width: 33%;
+    padding-top: 2.5%;
+}
+
+.section-textLarge {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-scarica {
+    width: 50%;
+    margin: 0 auto 5%;
+    text-align: center;
+}
+
+.section-scarica .btnLarge {
+    font-size: 1.2vw;
+    padding: 3% 5%;
+}
+
+.textLeft {
+    float: left;
+}
+
+.section h2 {
+    font-size: 3vw;
+}
+
+.section-scarica h3{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-size: 1.8vw;
+    padding-top: 10%;
+    margin-bottom: 8%;
+}
+
+.section p {
+    padding-top: 7%;
+    font-size: 1.1vw;
+}
+
+/*  FOOTER  */
+footer{
+    background-color: #23272A;
+    color: white;
+}
+
+.container-footer {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5% 0;
+    
+}
+
+/*  COLUMN LEFT  */
+.footer-colLeft {
+    float: left;
+    width: 25%;
+}
+
+.footer-colLeft img{
+    width: 8%;
+}
+
+footer h2, h4 {
+    color: #6F85D3;
+}
+
+footer h2 {
+    font-size: 1.8vw;
+}
+
+footer h4, .info-link a {
+    font-size: 1vw;
+}
+
+footer select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 5% 0;
+}   
+footer select option {
+    color: black;
+}
+
+footer select:hover {
+    cursor: pointer;
+}
+
+.footer-icons {
+    display: block;
+}
+
+.footer-colLeft .fa-brands {
+    padding: 3%;
+    font-size: 1.2vw;
+}
+.footer-colLeft .fa-brands:hover {
+    cursor: pointer;
+}
+
+
+/*  COLUMN RIGHT  */
+.footer-colRight {
+    float: left;
+    width: 75%;
+    padding-bottom: 3%;
+}
+
+.info-link {
+    display: inline-block;
+    margin-left: 10%;
+    vertical-align: top;
+}
+.info-link a {
+    display: block;
+    margin: 10% 0;
+}
+
+
+/*  BOTTOM  */
+.footer-bottom {
+    border-top: 1px solid #6F85D3;
+    display: inline-block;
+    width: 100%;
+}
+
+.footer-bottom img,.footer-bottom .btnSmall {
+    margin-top: 3%;
+}
+
+.footer-bottom img {
+    width: 10%;
+}
+
+.footer-bottom .btnSmall {
+    float: right;
+    padding: 0.8% 1.6%;
+}
